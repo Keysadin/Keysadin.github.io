@@ -1,23 +1,13 @@
 <html>
   <head>
     <title>
-      Ваше устройство заблокировано
+      Выберите изображение
     </title>
-    <style>
-      body {
-      background-image: url('background.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-      marquee {
-      font-size: 20px;
-      font-style: strong;
-    }
-    </style>
   </head>
   <body>
-    <marquee behavior="scroll" direction="left" width="100%" height="100%">
-      BFG
-    </marquee>
+    <h2>
+      Выберите изображение, которое будет имитировать изображение рабочего стола
+    <h2>
+    <input type="file" id="imageInput" accept="image/*" onchange="displayImage(this)"/>
   </body>
 </html>
