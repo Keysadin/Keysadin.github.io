@@ -1,4 +1,5 @@
 ca.desrt.dconf-editor.Demo boolean true
+
 ca.desrt.dconf-editor.Demo boolean-nullable @mb nothing
 ca.desrt.dconf-editor.Demo byte byte 0x42
 ca.desrt.dconf-editor.Demo bytestring [byte 0x48, 0x65, 0x6c, 0x6c, 0x6c]
